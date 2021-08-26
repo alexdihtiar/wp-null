@@ -420,9 +420,27 @@ a:hover {
   max-width: 1140px;
   padding: 15px;
   margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
+.primary-menu-container ul li {
+  list-style: none;
+  float: left;
+  padding: 6px;
+}
+.primary-menu-container ul li a {
+  display: block;
+  padding: 6px;
+}
 
+.site-header,
+.site-footer {
+  max-width: 1140px;
+  padding: 15px;
+  margin: 0 auto;
+}
 
 
 
