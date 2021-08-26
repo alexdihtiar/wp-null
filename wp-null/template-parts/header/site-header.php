@@ -7,7 +7,7 @@
 $wrapper_classes  = 'site-header';
 $wrapper_classes .= has_custom_logo() ? ' has-logo' : '';
 ?>
-<header id="masthead"  class="<?php echo esc_attr( $wrapper_classes ); ?>">
+<header id="masthead"  class="<?php echo esc_attr( $wrapper_classes ); ?>" flex="none">
   <div class="site-header-layout" flex layout="row" layout-align="space-between start">
     <div class="site-header-branding" flex="none">
        <?php get_template_part( 'template-parts/header/site-branding' ); ?>

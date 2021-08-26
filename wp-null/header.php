@@ -20,6 +20,10 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
-<div class="wrapper">
+<div id="page" class="site" flex layout="column" layout-align="start start">
   
 <?php get_template_part( 'template-parts/header/site-header' ); ?>  
+  
+<div id="content" class="site-content" flex="noshrink">
+  <main id="main" class="site-main" role="main">
+    <div class="wrapper">

@@ -9,10 +9,13 @@
  */
 
 ?>
+      </div><!-- .wrapper -->
+    </main><!-- #main -->
+  </div><!-- #content -->
 
-<?php get_template_part( 'template-parts/footer/footer-widgets' ); ?>
+  <?php //get_template_part( 'template-parts/footer/footer-widgets' ); ?>
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer id="colophon" class="site-footer" role="contentinfo" flex="none">
 
 		<?php if ( has_nav_menu( 'footer' ) ) : ?>
 			<nav aria-label="<?php esc_attr_e( 'Secondary menu', 'twentytwentyone' ); ?>" class="footer-navigation">
@@ -60,7 +63,7 @@
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 
-</div>
+</div><!-- #page -->
 
 <?php wp_footer(); ?>
 
